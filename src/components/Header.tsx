@@ -25,11 +25,11 @@ export default function Header() {
     ) || routes[0];
 
   return (
-    <header className="container flex h-16 items-center justify-between px-6 py-4 sm:h-24">
-      <div className="flex items-center gap-x-16">
+    <header className="container flex h-16 items-center justify-between px-6 py-4 sm:h-24 lg:px-16">
+      <div className="flex items-center justify-between gap-x-4">
         {/* Mobile Navbar */}
         <MobileSidebar />
-        <Link href="/">
+        <Link href="/" className="">
           <Image src="/assets/logo.svg" alt="logo" width={100} height={29} />
         </Link>
         {/* Desktop Navbar */}
@@ -68,7 +68,7 @@ export function MobileSidebar() {
     <div className="md:hidden">
       <Sheet open={isOpen} onOpenChange={setOpen}>
         <SheetTrigger asChild>
-          <Button variant={"ghost"} size={"icon"}>
+          <Button variant={"ghost"} size={"icon"} className="mt-2">
             <MenuIcon className="size-6" />
           </Button>
         </SheetTrigger>

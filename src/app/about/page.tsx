@@ -1,3 +1,4 @@
+import MainCard from "@/components/MainCard";
 import OurValues from "@/components/OurValues";
 import PagesHero from "@/components/PagesHero";
 
@@ -10,7 +11,21 @@ export default function About() {
         bgImageTablet="/assets/images/about-hero-tablet.jpg"
         bgImageDesktop="/assets/images/about-hero-desktop.jpg"
       />
-      <OurValues />
+
+      <MainCard
+        title="Mobility for the digital era"
+        description="Getting around should be simple (and even fun!) for everyone. We embrace technology to provide low cost, smart access to scooters at your fingertips."
+        image="/assets/images/digital-era.jpg"
+        specificClass="flex-row-reverse"
+      />
+      <MainCard
+        title="Better urban living"
+        description="We’re helping connect cities and bring people closer together. Our scooters are also fully-electric and we offset the minimal carbon footprint for each ride."
+        image="/assets/images/better-living.jpg"
+        specificClass="flex-row"
+      />
+
+      <OurValues title="Our values" />
     </main>
   );
 }

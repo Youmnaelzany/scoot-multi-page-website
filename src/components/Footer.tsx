@@ -18,7 +18,7 @@ export default function Footer() {
     ) || routes[0];
 
   return (
-    <footer className="container flex h-auto flex-col items-center justify-center bg-[#333A44] px-6 py-16 sm:h-24 sm:flex-row sm:justify-between sm:py-0">
+    <footer className="flex h-auto w-full flex-col items-center justify-center bg-[#333A44] px-6 py-16 sm:h-24 sm:flex-row sm:justify-between sm:py-0 lg:px-16">
       <div className="flex flex-col items-center justify-center gap-y-12 sm:flex-row sm:justify-between sm:gap-x-16">
         <Link href="/">
           <Image

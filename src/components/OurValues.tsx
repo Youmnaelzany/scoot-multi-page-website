@@ -24,11 +24,11 @@ const values = [
   },
 ];
 
-export default function OurValues() {
+export default function OurValues({ title }: { title: string }) {
   return (
-    <section className="flex flex-col items-center justify-center gap-y-16 px-6 py-[7.5rem] lg:px-16">
+    <section className="flex flex-col items-center justify-center gap-y-16 px-6 py-[7.5rem] lg:px-24">
       <h1 className="font-['Space_Mono'] text-[2rem] leading-8 font-bold tracking-[-0.08931rem] text-[#495567] sm:text-[3rem] sm:leading-12 sm:tracking-[-0.13394rem]">
-        Our Values
+        {title}
       </h1>
       <div className="flex flex-col items-center justify-center gap-y-16 sm:justify-between lg:flex-row lg:items-start lg:gap-x-8">
         {values.map((value) => (
