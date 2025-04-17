@@ -1,3 +1,4 @@
+import OurValues from "@/components/OurValues";
 import PagesHero from "@/components/PagesHero";
 
 export default function Careers() {
@@ -9,6 +10,7 @@ export default function Careers() {
         bgImageTablet="/assets/images/careers-locations-hero-tablet.jpg"
         bgImageDesktop="/assets/images/careers-locations-hero-desktop.jpg"
       />
+      <OurValues />
     </main>
   );
 }

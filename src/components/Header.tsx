@@ -13,8 +13,8 @@ import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet";
 export const routes = [
   { label: "Home", href: "/" },
   { label: "About", href: "about" },
-  { label: "Locations", href: "locations" },
   { label: "Careers", href: "careers" },
+  { label: "Locations", href: "locations" },
 ];
 
 export default function Header() {
