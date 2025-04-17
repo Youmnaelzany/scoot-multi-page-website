@@ -10,7 +10,8 @@ import { MenuIcon } from "lucide-react";
 import { Button, buttonVariants } from "./ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet";
 
-const routes = [
+export const routes = [
+  { label: "Home", href: "/" },
   { label: "About", href: "about" },
   { label: "Locations", href: "locations" },
   { label: "Careers", href: "careers" },
@@ -20,7 +21,7 @@ export default function Header() {
   const pathName = usePathname();
   const activeRoute =
     routes.find(
-      (route) => route.href.length > 0 && pathName.includes(route.href)
+      (route) => route.href.length > 1 && pathName.includes(route.href)
     ) || routes[0];
 
   return (
