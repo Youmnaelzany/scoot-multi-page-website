@@ -1,7 +1,7 @@
+import Header from "@/components/Header";
 import type { Metadata } from "next";
 import { Lexend_Deca, Space_Mono } from "next/font/google";
 import "./globals.css";
-
 const spaceMono = Space_Mono({
   variable: "--font-space-mono",
   subsets: ["latin"],
@@ -29,6 +29,7 @@ export default function RootLayout({
       <body
         className={`${spaceMono.variable} ${lexendDeca.variable} antialiased max-w-7xl mx-auto w-full h-screen`}
       >
+        <Header />
         {children}
       </body>
     </html>

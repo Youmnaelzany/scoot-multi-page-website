@@ -1,6 +1,7 @@
 import * as React from "react";
+
 import { Slot } from "@radix-ui/react-slot";
-import { cva, type VariantProps } from "class-variance-authority";
+import { type VariantProps, cva } from "class-variance-authority";
 
 import { cn } from "@/lib/utils";
 
@@ -20,11 +21,18 @@ const buttonVariants = cva(
         ghost:
           "hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50",
         link: "text-primary underline-offset-4 hover:underline",
+        navbarItem:
+          "text-[#939CAA] text-[0.9375rem] font-bold font-space-mono leading-[1.5625rem] bg-transparent border-none hover:text-[#FCB72B]",
+        navbarItemMobile:
+          "text-[#E5ECF4] text-[0.9375rem] font-bold font-space-mono leading-[1.5625rem] bg-transparent border-none hover:text-[#FCB72B]",
+        navbarItemActive: "text-[#FCB72B]",
+        navbarButton:
+          "text-white text-[0.9375rem] font-bold font-space-mono leading-[1.5625rem] bg-[#FCB72B] hover:bg-transparent hover:text-[#FCB72B] border border-[#FCB72B] border-3 rounded-none",
       },
       size: {
         default: "h-9 px-4 py-2 has-[>svg]:px-3",
         sm: "h-8 rounded-md gap-1.5 px-3 has-[>svg]:px-2.5",
-        lg: "h-10 rounded-md px-6 has-[>svg]:px-4",
+        lg: "w-[11.25rem] h-[3.3125rem] ",
         icon: "size-9",
       },
     },
@@ -43,7 +51,7 @@ function Button({
   ...props
 }: React.ComponentProps<"button"> &
   VariantProps<typeof buttonVariants> & {
-    asChild?: boolean
+    asChild?: boolean;
   }) {
   const Comp = asChild ? Slot : "button";
 
