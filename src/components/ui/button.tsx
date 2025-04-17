@@ -22,12 +22,12 @@ const buttonVariants = cva(
           "hover:bg-accent hover:text-accent-foreground dark:hover:bg-accent/50",
         link: "text-primary underline-offset-4 hover:underline",
         navbarItem:
-          "text-[#939CAA] text-[0.9375rem] font-bold font-space-mono leading-[1.5625rem] bg-transparent border-none hover:text-[#FCB72B]",
+          "text-[#939CAA] text-[0.9375rem] font-bold font-['Space_Mono'] leading-[1.5625rem] bg-transparent border-none hover:text-[#FCB72B]",
         navbarItemMobile:
-          "text-[#E5ECF4] text-[0.9375rem] font-bold font-space-mono leading-[1.5625rem] bg-transparent border-none hover:text-[#FCB72B]",
+          "text-[#E5ECF4] text-[0.9375rem] font-bold font-['Space_Mono'] leading-[1.5625rem] bg-transparent border-none hover:text-[#FCB72B]",
         navbarItemActive: "text-[#FCB72B]",
         navbarButton:
-          "text-white text-[0.9375rem] font-bold font-space-mono leading-[1.5625rem] bg-[#FCB72B] hover:bg-transparent hover:text-[#FCB72B] border border-[#FCB72B] border-3 rounded-none",
+          "text-white text-[0.9375rem] font-bold font-['Space_Mono'] leading-[1.5625rem] bg-[#FCB72B] hover:bg-transparent hover:text-[#FCB72B] border border-[#FCB72B] border-3 rounded-none",
       },
       size: {
         default: "h-9 px-4 py-2 has-[>svg]:px-3",

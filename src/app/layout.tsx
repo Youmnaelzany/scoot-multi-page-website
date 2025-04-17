@@ -3,6 +3,7 @@ import { Lexend_Deca, Space_Mono } from "next/font/google";
 
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import ScootOff from "@/components/ScootOff";
 
 import "./globals.css";
 
@@ -35,6 +36,7 @@ export default function RootLayout({
       >
         <Header />
         {children}
+        <ScootOff />
         <Footer />
       </body>
     </html>
