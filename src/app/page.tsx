@@ -1,9 +1,12 @@
 import AppsBenefits from "@/components/AppsBenefits";
+import HomeHero from "@/components/HomeHero";
 import MainCard from "@/components/MainCard";
 
 export default function Home() {
   return (
     <main className="">
+      {/* Hero */}
+      <HomeHero />
       {/* Apps Benefits */}
       <AppsBenefits />
       {/* Main Cards */}
