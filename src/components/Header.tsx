@@ -62,7 +62,7 @@ export function MobileSidebar() {
   const pathName = usePathname();
   const activeRoute =
     routes.find(
-      (route) => route.href.length > 0 && pathName.includes(route.href)
+      (route) => route.href.length > 1 && pathName.includes(route.href)
     ) || routes[0];
   return (
     <div className="md:hidden">

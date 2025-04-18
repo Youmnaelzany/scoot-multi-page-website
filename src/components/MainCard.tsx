@@ -18,7 +18,6 @@ export default function MainCard({
   arrowImage = "right-arrow",
 }: MainCardProps) {
   const isReversed = specificClass === "flex-row-reverse";
-  const circlePosition = isReversed ? "pr-16" : "pl-16";
   const arrowImagePath =
     arrowImage === "left-downward-arrow"
       ? "/assets/patterns/left-downward-arrow.svg"
@@ -26,7 +25,7 @@ export default function MainCard({
 
   return (
     <section
-      className={`flex flex-col items-center justify-center gap-y-14 px-6 pt-[7.5rem] lg:px-16 lg:${specificClass} overflow-hidden lg:justify-between`}
+      className={`flex flex-col items-center justify-center gap-y-14 overflow-hidden px-6 pt-[7.5rem] lg:flex-row lg:justify-between lg:px-16 ${isReversed ? "lg:flex-row-reverse" : ""}`}
     >
       {/* Image & Pattern */}
       <div className="relative flex">
@@ -42,7 +41,7 @@ export default function MainCard({
           alt={title}
           width={600}
           height={600}
-          className={`absolute hidden max-h-[500px] max-w-[500px] sm:flex ${isReversed ? "sm:-right-137 lg:-right-129" : "sm:-left-137 lg:-left-129"} sm:flex ${circlePosition}`}
+          className={`absolute hidden max-h-[500px] max-w-[500px] sm:flex ${isReversed ? "sm:-right-137 lg:-right-129" : "sm:-left-137 lg:-left-129"}`}
         />
         <Image
           src={arrowImagePath}

@@ -1,3 +1,4 @@
+import Faqs from "@/components/Faqs";
 import MainCard from "@/components/MainCard";
 import OurValues from "@/components/OurValues";
 import PagesHero from "@/components/PagesHero";
@@ -11,7 +12,6 @@ export default function About() {
         bgImageTablet="/assets/images/about-hero-tablet.jpg"
         bgImageDesktop="/assets/images/about-hero-desktop.jpg"
       />
-
       <MainCard
         title="Mobility for the digital era"
         description="Getting around should be simple (and even fun!) for everyone. We embrace technology to provide low cost, smart access to scooters at your fingertips."
@@ -24,8 +24,8 @@ export default function About() {
         image="/assets/images/better-living.jpg"
         specificClass="flex-row"
       />
-
       <OurValues title="Our values" />
+      <Faqs />
     </main>
   );
 }
