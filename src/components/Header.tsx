@@ -26,12 +26,12 @@ export default function Header() {
 
   return (
     <header className="container flex h-16 items-center justify-between px-6 py-4 sm:h-24 lg:px-16">
-      <div className="flex items-center justify-between gap-47">
+      <div className="flex items-center justify-between gap-x-4">
         {/* Mobile Navbar */}
+        <MobileSidebar />
         <Link href="/" className="">
           <Image src="/assets/logo.svg" alt="logo" width={100} height={29} />
         </Link>
-        <MobileSidebar />
         {/* Desktop Navbar */}
         <nav className="hidden sm:flex">
           {routes.map((route) => (
@@ -69,12 +69,12 @@ export function MobileSidebar() {
       <Sheet open={isOpen} onOpenChange={setOpen}>
         <SheetTrigger asChild>
           <Button variant={"ghost"} size={"icon"} className="mt-2">
-            <MenuIcon className="size-6 text-[#FCB72B]" />
+            <MenuIcon className="size-8 text-[#FCB72B]" />
           </Button>
         </SheetTrigger>
         <SheetContent
           className="flex flex-col justify-between bg-[#333A44] px-6 pt-16 pb-8"
-          side="right"
+          side="left"
         >
           <nav className="flex flex-col items-start">
             {routes.map((route) => {

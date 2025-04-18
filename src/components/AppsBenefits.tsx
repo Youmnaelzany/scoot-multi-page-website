@@ -23,13 +23,15 @@ const benefits = [
 
 export default function AppsBenefits() {
   return (
-    <section className="flex flex-col items-center justify-center gap-12 px-6 pt-[7.5rem] sm:gap-10 lg:flex-row lg:items-center lg:justify-between lg:px-16">
+    <section className="relative flex flex-col items-center justify-center gap-12 overflow-hidden px-6 pt-[7.5rem] sm:gap-10 lg:flex-row lg:items-center lg:justify-between lg:px-16">
+      <div className="absolute top-0 left-[19%] hidden h-[34.0625rem] w-[0.5rem] -translate-x-1/2 bg-[#E5ECF4] sm:block lg:hidden" />
+      <div className="absolute top-[11rem] -left-16 hidden h-[0.5rem] w-[60.875rem] bg-[#E5ECF4] sm:hidden lg:block" />
       {benefits.map((benefit) => (
         <div
           key={benefit.title}
           className="flex flex-col items-center justify-center gap-12 sm:flex-row sm:items-start sm:justify-between sm:gap-20 lg:flex-col lg:items-start lg:justify-start lg:gap-[1.88rem]"
         >
-          <div className="flex items-center justify-center">
+          <div className="relative flex items-center justify-center">
             <Image
               src={benefit.image}
               alt={benefit.title}
