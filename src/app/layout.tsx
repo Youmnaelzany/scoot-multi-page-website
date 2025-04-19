@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Lexend_Deca, Space_Mono } from "next/font/google";
 
+import { SpeedInsights } from "@vercel/speed-insights/next";
+
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import ScootOff from "@/components/ScootOff";
@@ -38,6 +40,7 @@ export default function RootLayout({
         {children}
         <ScootOff />
         <Footer />
+        <SpeedInsights />
       </body>
     </html>
   );
