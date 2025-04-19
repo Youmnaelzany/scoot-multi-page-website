@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 import { Button } from "./ui/button";
 
@@ -8,6 +9,8 @@ interface MainCardProps {
   image: string;
   specificClass?: "flex-row-reverse" | "flex-row";
   arrowImage?: "left-downward-arrow" | "right-arrow";
+  href?: string;
+  buttonText?: string;
 }
 
 export default function MainCard({
@@ -16,6 +19,8 @@ export default function MainCard({
   image,
   specificClass = "flex-row",
   arrowImage = "right-arrow",
+  href,
+  buttonText,
 }: MainCardProps) {
   const isReversed = specificClass === "flex-row-reverse";
   const arrowImagePath =
@@ -60,7 +65,7 @@ export default function MainCard({
           {description}
         </p>
         <Button variant={"navbarButton"} className="hidden sm:flex" size={"lg"}>
-          Learn More
+          <Link href={href || "#"}>{buttonText}</Link>
         </Button>
       </div>
     </section>

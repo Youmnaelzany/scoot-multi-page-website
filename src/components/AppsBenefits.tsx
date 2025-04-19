@@ -29,9 +29,9 @@ export default function AppsBenefits() {
       {benefits.map((benefit) => (
         <div
           key={benefit.title}
-          className="flex w-[19.4375rem] flex-col items-center justify-center gap-12 sm:w-[24.875rem] sm:flex-row sm:items-start sm:justify-between sm:gap-20 lg:w-auto lg:flex-col lg:items-start lg:justify-start lg:gap-[1.88rem]"
+          className="flex flex-col items-center justify-center gap-12 sm:flex-row sm:justify-between sm:gap-20 lg:w-auto lg:flex-col lg:items-start lg:justify-start lg:gap-[1.88rem]"
         >
-          <div className="relative flex items-center justify-center">
+          <div className="relative">
             <Image
               src={benefit.image}
               alt={benefit.title}
@@ -40,7 +40,7 @@ export default function AppsBenefits() {
               className="sm:size-24"
             />
           </div>
-          <div className="flex w-full flex-col items-center justify-center gap-6 text-center sm:items-start sm:text-left lg:w-[21.875rem]">
+          <div className="flex w-[19.4375rem] flex-col items-center justify-center gap-6 text-center sm:w-[24.875rem] sm:items-start sm:text-left lg:w-[21.875rem]">
             <h2 className="font-['Space_Mono'] text-xl leading-7 font-bold tracking-[-0.05581rem] text-[#495567]">
               {benefit.title}
             </h2>

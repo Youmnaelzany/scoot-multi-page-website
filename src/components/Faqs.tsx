@@ -47,7 +47,7 @@ export default function Faqs() {
               </AccordionTrigger>
               <AccordionContent className="w-[15.6875rem] text-left font-['Lexend_Deca'] text-[0.9375rem] leading-[1.5625rem] font-normal text-[#495567] sm:w-[38.5625rem] lg:w-[40.625rem]">
                 Definitely! Simply open up the app and allow us to find your
-                location while using it. We'll show you all of the closest
+                location while using it. We&apos;ll show you all of the closest
                 Scoots and some extra useful information.
               </AccordionContent>
             </AccordionItem>
@@ -105,10 +105,10 @@ export default function Faqs() {
                 How about the rules & regulations?
               </AccordionTrigger>
               <AccordionContent className="w-[15.6875rem] text-left font-['Lexend_Deca'] text-[0.9375rem] leading-[1.5625rem] font-normal text-[#495567] sm:w-[38.5625rem] lg:w-[40.625rem]">
-                Now is not the time to be a rule breaker. Be sure you're
+                Now is not the time to be a rule breaker. Be sure you&apos;re
                 complying with all local laws and regulations. Also, just be a
                 good human being. Be sure not to park your Scoot where it can
-                block access to buildings or get in people's way.
+                block access to buildings or get in people&apos;s way.
               </AccordionContent>
             </AccordionItem>
           </Accordion>
@@ -124,9 +124,10 @@ export default function Faqs() {
               </AccordionTrigger>
               <AccordionContent className="w-[15.6875rem] text-left font-['Lexend_Deca'] text-[0.9375rem] leading-[1.5625rem] font-normal text-[#495567] sm:w-[38.5625rem] lg:w-[40.625rem]">
                 Be sure to read our terms and conditions carefully. Not the most
-                fun job we know but we make it as clear as possible. There's an
-                option to add insurance for each trip, or you can sign up for
-                annual insurance if you're a regular Scooter.
+                fun job we know but we make it as clear as possible.
+                There&apos;s an option to add insurance for each trip, or you
+                can sign up for annual insurance if you&apos;re a regular
+                Scooter.
               </AccordionContent>
             </AccordionItem>
           </Accordion>

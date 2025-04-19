@@ -18,8 +18,8 @@ export default function Footer() {
     ) || routes[0];
 
   return (
-    <footer className="flex h-auto w-full flex-col items-center justify-center bg-[#333A44] px-6 py-16 sm:h-24 sm:flex-row sm:justify-between sm:py-0 lg:px-16">
-      <div className="flex flex-col items-center justify-center gap-y-12 sm:flex-row sm:justify-between sm:gap-x-16">
+    <footer className="flex h-auto w-full flex-col items-center justify-center gap-8 bg-[#333A44] px-6 py-16 sm:h-24 sm:flex-row sm:justify-between sm:py-0 lg:px-16">
+      <div className="flex flex-col items-center justify-center gap-8 sm:flex-row sm:justify-between sm:gap-x-16">
         <Link href="/">
           <Image
             src="/assets/logo-white.svg"
@@ -45,7 +45,7 @@ export default function Footer() {
           ))}
         </nav>
       </div>
-      <div className="mt-20 flex items-center gap-x-4 sm:mt-0">
+      <div className="flex items-center gap-x-4 sm:mt-0">
         <Link href="/">
           <ImFacebook2 className="size-5 fill-[#FCB72B] hover:fill-white" />
         </Link>

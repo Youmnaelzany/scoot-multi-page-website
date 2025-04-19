@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 import { Button } from "./ui/button";
 
@@ -63,11 +64,11 @@ export default function HomeHero() {
         <p className="w-[19.4375rem] font-[`Lexend_Deca`] text-[0.9375rem] leading-[1.5625rem] font-normal text-[#E5ECF4] sm:w-[35.8125rem] sm:text-center lg:w-[25.3125rem] lg:self-end lg:text-left">
           Scoot takes the hassle out of urban mobility. Our bikes are placed in
           convenient locations in each of our cities. Use our app to locate the
-          nearest bike, unlock it with a tap, and you're away!
+          nearest bike, unlock it with a tap, and you&apos;re away!
         </p>
         <div className="sm:flex sm:justify-center lg:ml-23 lg:w-[25.3125rem] lg:justify-start">
           <Button variant={"navbarButton"} className="" size={"lg"}>
-            Learn More
+            <Link href="#scoot-off">Get Scootin</Link>
           </Button>
         </div>
       </div>

@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Frontend Mentor - Scoot website solution
 
-## Getting Started
+This is a solution to the [Scoot website challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/scoot-multipage-website-N76alNPRJ). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-First, run the development server:
+## Table of contents
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Screenshot](#screenshot)
+- [Links](#links)
+- [Built with](#built-with)
+- [Author](#author)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Screenshot
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+![](/public/Scoot-App-04-19-2025_08_48_PM.png)
+![](/public/Scoot-App-04-19-2025_08_49_PM.png)
+![](/public/Scoot-App-04-19-2025_08_50_PM-2.png)
+![](/public/Scoot-App-04-19-2025_08_50_PM-3.png)
+![](/public/Scoot-App-04-19-2025_08_50_PM.png)
+![](/public/Scoot-App-04-19-2025_09_02_PM.png)
+![](/public/Scoot-App-04-19-2025_09_03_PM.png)
+![](/public/Scoot-App-04-19-2025_09_04_PM.png)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Links
 
-## Learn More
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
-To learn more about Next.js, take a look at the following resources:
+### Built with
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+- [Next.js](https://nextjs.org/) - React framework
+- [Shadcn](https://ui.shadcn.com/) - For styles
+- [Tailwindcss](https://tailwindcss.com/) - For styles
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Author
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Frontend Mentor - [@Youmnaelzany](https://www.frontendmentor.io/profile/Youmnaelzany)
+- Twitter - [@yayaahmed33](https://twitter.com/yayaahmed33)

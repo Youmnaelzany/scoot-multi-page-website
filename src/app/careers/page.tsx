@@ -17,6 +17,8 @@ export default function Careers() {
         description="We’re always looking for ambitious individuals to help us on our journey. If you’re passionate about our mission to provide clean, accessible transport to improve urban living we want to hear from you!"
         image="/assets/images/join-us.jpg"
         specificClass="flex-row-reverse"
+        href="#"
+        buttonText="Say Hello"
       />
       <OurValues title="Why join us?" />
       <JobOpportunities />

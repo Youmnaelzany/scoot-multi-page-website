@@ -51,7 +51,7 @@ export default function Header() {
         </nav>
       </div>
       <Button variant={"navbarButton"} className="hidden sm:flex" size={"lg"}>
-        Get Scootin
+        <Link href="#scoot-off">Get Scootin</Link>
       </Button>
     </header>
   );
@@ -96,7 +96,7 @@ export function MobileSidebar() {
             })}
           </nav>
           <Button variant={"navbarButton"} size={"lg"} asChild>
-            <Link href="/locations">Get Scootin</Link>
+            <Link href="#scoot-off">Get Scootin</Link>
           </Button>
         </SheetContent>
       </Sheet>

@@ -29,7 +29,7 @@ const jobOpportunities = [
 
 export default function JobOpportunities() {
   return (
-    <section className="flex flex-col gap-4 px-6 pb-[7.5rem] lg:px-16 lg:pb-80">
+    <section className="flex flex-col gap-4 px-6 pb-[7.5rem] lg:px-16">
       {jobOpportunities.map((job) => (
         <div
           key={job.title}
